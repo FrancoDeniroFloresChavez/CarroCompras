@@ -1,0 +1,60 @@
+.carta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* ✅ Tres columnas */
+  gap: 20px;
+  justify-content: center;
+}
+
+.producto-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  background: #f9f9f9;
+  transition: transform 0.3s ease-in-out;
+}
+
+.producto-card:hover {
+  transform: scale(1.05);
+}
+
+.producto-imagen {
+  width: 100px;
+  height: auto;
+}
+
+.Añadir {
+  background-color: #e2520f;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+}
+
+.Añadir:hover {
+  background-color: #883421;
+  transform: scale(1.05);
+}
+
+.Añadir:active {
+  background-color: #b3411a;
+  transform: scale(0.95);
+}

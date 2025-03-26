@@ -1,0 +1,10 @@
+body{
+  margin: 0;
+}
+.contenedor-app {
+  display: flex;
+  justify-content: space-between; /* Espaciado entre componentes */
+  align-items: flex-start; /* Alinea los componentes en la parte superior */
+  gap: 20px; /* Espacio entre ellos */
+  padding: 20px;
+}

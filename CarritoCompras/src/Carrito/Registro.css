@@ -1,0 +1,13 @@
+.container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .producto-seleccionado {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
