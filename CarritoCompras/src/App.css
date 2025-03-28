@@ -1,10 +1,22 @@
 body{
   margin: 0;
+  background-color: azure;
 }
 .contenedor-app {
   display: flex;
-  justify-content: space-between; /* Espaciado entre componentes */
-  align-items: flex-start; /* Alinea los componentes en la parte superior */
-  gap: 20px; /* Espacio entre ellos */
+  justify-content: center; /* ✅ Centra los elementos horizontalmente */
+  align-items: flex-start; /* Alinea los elementos en la parte superior */
+  gap: 20px; /* Espacio entre los elementos */
   padding: 20px;
+}
+
+/* ✅ En pantallas pequeñas, asegura que los elementos estén alineados al centro */
+@media (max-width: 768px) {
+  .contenedor-app {
+    display: flex;
+    flex-direction: column; /* ✅ Asegura una disposición en columna */
+    align-items: center; /* ✅ Centra los elementos horizontalmente */
+    justify-content: center; /* ✅ Centra verticalmente */
+    text-align: center; /* ✅ Centra el texto si es necesario */
+  }
 }

@@ -5,56 +5,56 @@ export const productos = [
       nombre: "Hamburguesa Clásica",
       precio: 15.99,
       cantidad: 1,
-      imagen: "https://example.com/hamburguesa.jpg"
+      imagen: "/imagenes/img-Hamburguesa.jpeg",
     },
     {
       id: 2,
       nombre: "Pizza Pepperoni",
       precio: 22.50,
       cantidad: 1,
-      imagen: "https://example.com/pizza.jpg"
+      imagen: "/imagenes/img-Pizza.jpeg"
     },
     {
       id: 3,
       nombre: "Papas Fritas",
       precio: 8.99,
       cantidad: 1,
-      imagen: "https://example.com/papas-fritas.jpg"
+      imagen: "/imagenes/img-Papas.jpeg"
     },
     {
       id: 4,
       nombre: "Pollo Broaster",
       precio: 18.75,
       cantidad: 1,
-      imagen: "https://example.com/pollo.jpg"
+      imagen: "/imagenes/img-Broster.jpeg"
     },
     {
       id: 5,
       nombre: "Hot Dog",
       precio: 12.00,
       cantidad: 1,
-      imagen: "https://example.com/hotdog.jpg"
+      imagen: "/imagenes/img-HotDog.jpeg"
     },
     {
       id: 6,
       nombre: "Refresco de Maracuyá",
       precio: 5.50,
       cantidad: 1,
-      imagen: "https://example.com/refresco.jpg"
+      imagen: "/imagenes/img-Maracuya.jpeg"
     },
     {
       id: 7,
       nombre: "Ensalada César",
       precio: 14.30,
       cantidad: 1,
-      imagen: "https://example.com/ensalada.jpg"
+      imagen: "/imagenes/img-Ensalada.jpeg"
     },
     {
       id: 8,
       nombre: "Helado de Chocolate",
       precio: 6.99,
       cantidad: 1,
-      imagen: "https://example.com/helado.jpg"
+      imagen: "/imagenes/img-Helado.jpeg"
     }
   ];
   

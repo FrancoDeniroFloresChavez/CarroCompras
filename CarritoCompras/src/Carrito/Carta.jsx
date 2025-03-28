@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { productos as productosData } from "../Productos/Productos";
 import "./Carta.css";
+import Button from "./Button";
 
 function Carta({ setCarrito }) {
   const [productos, setProductos] = useState([]);
@@ -18,9 +19,8 @@ function Carta({ setCarrito }) {
             <img src={producto.imagen} alt={producto.nombre} className="producto-imagen" />
             <h3>{producto.nombre}</h3>
             <p>Precio: ${producto.precio}</p>
-            <button onClick={() => setCarrito(prev => [...prev, producto])} className="añadir">
-              Añadir al carrito
-            </button>
+            <Button producto={producto} setCarrito={setCarrito} />
+
           </div>
         ))}
       </div>
